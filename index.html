@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+
+    <main>
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap" />
@@ -34,7 +35,7 @@
         slide show
       -->
 
-      
+      <main>
    
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -44,21 +45,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="9000">
-            <img class="d-block w-100" src="./img/datascience.jpeg" alt="First slide" />
+            <img class="d-block w-100 h-400" src="./img/datascience.jpeg" alt="First slide" />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="9000">
-            <img class="d-block w-100" src="./img/pythonSlider.png" alt="Second slide" />
+            <img class="d-block w-100 h-400" src="./img/pythonSlider.png" alt="Second slide" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="9000">
-            <img class="d-block w-100" src="./img/devopsSlider.jpeg" alt="Third slide" />
+            <img class="d-block w-100 h-400" src="./img/devopsSlider.jpeg" alt="Third slide" />
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -77,21 +78,22 @@
 
 
       <div class="container marketing">
-      <div class="row">
-        <div class="col-lg-4">
+
+          <!-- Three columns of text below the carousel -->
+      <div class="row row1">
+        <div class="col-lg-4 b-black">
           <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./img/python.png"></img>
-  
           <h2>Python</h2>
           <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
           <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-lg-4 b-black">
           <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./img/devops.jpg"></img>
           <h2>DevOps</h2>
           <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
           <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        <div class="col-lg-4 b-black">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="./img/devops.svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
   
           <h2>Heading</h2>
@@ -100,9 +102,30 @@
         </div>
       </div>
 
+       <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <ul><h2 class="featurette-heading">Our Mission</h2></ul>
+        <li class="lead">Our aim is to provides the good quality of produces the products.
+        </li>
+        <li class="lead">To provide the good quality  of academic intuitions and students to enhances the skill was helping the  career growth.
+        </li>
+        <li class="lead">Focusing organization quality  of transparent proved by security of information.</li>
+        <li class="lead">Step by step enhancement the innovation skills to survey.</li>
+        
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
     </div>
 
-   
+    </div>
+
+   <div class="container">
     <footer class="py-3 my-4 border-top ">
 
       <!-- <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top"> -->
@@ -116,13 +139,12 @@
         <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
 
       </footer>
+    </div>
+    </main>
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-   <script>
-  var myCarousel = document.querySelector('#myCarousel')
-  var carousel = new bootstrap.Carousel(myCarousel)
-</script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
 
 
   </body>
